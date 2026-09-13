@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Mohammad Kaud Marraikayar - Computer Science Engineering Diploma Student, Python Developer, and AI Enthusiast with 9.23 CPI.">
+    <meta name="keywords"
+        content="Mohammad Kaud Marraikayar, Portfolio, Computer Science, Python, AI Resume Analyzer, OpenCV, Sleep Detector, Web Developer">
+    <meta name="author" content="Mohammad Kaud Marraikayar">
+    <title>Mohammad Kaud Marraikayar | CS Engineering & AI Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Devicons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Top Scroll Progress Indicator -->
+    <div id="scroll-progress" class="scroll-progress-bar"></div>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="navbar" aria-label="Main Navigation">
+            <a href="#home" class="logo">PORTFOLIO</a>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#academics" class="nav-link">Academics</a></li>
+                <li><a href="#certifications" class="nav-link">Certificates</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-sm btn-primary header-cta">
+                    <span>Let's Talk</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <button class="menu-btn" id="menu-toggle" aria-label="Toggle navigation menu">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="home" class="hero-section">
+            <div class="hero-glow-blob blob-1"></div>
+            <div class="hero-glow-blob blob-2"></div>
+
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="pulse-dot"></span>
+                        <span>Open for Internships & Opportunities</span>
+                    </div>
+
+                    <h2 class="hero-greeting">Hi there, I'm</h2>
+                    <h1 class="hero-name">Mohammad Kaud <span class="gradient-text">Marraikayar</span></h1>
+
+                    <div class="hero-roles">
+                        <span class="role-prefix">I am a</span>
+                        <span class="role-typing" id="typing-text"></span>
+                        <span class="cursor">&nbsp;</span>
+                    </div>
+                    <p class="hero-bio">
+                        Computer Science Engineering Diploma student (<strong>CPI: 9.23/10</strong>) with hands-on
+                        expertise in
+                        <strong>Python</strong>, <strong>Data Analysis</strong>, <strong>Computer Vision</strong>, and
+                        <strong>Applied AI</strong>.
+                        Dedicated to engineering robust, automation-driven solutions for real-world impact.
+                    </p>
+
+                    <div class="hero-cta-group">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Explore Projects</span>
+                            <i class="fa-solid fa-layer-group"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Contact Me</span>
+                            <i class="fa-regular fa-envelope"></i>
+                        </a>
+                        <button id="quick-copy-email" class="btn btn-outline copy-trigger"
+                            data-copy="mohammadkaud5@gmail.com" title="Click to copy email">
+                            <i class="fa-regular fa-copy"></i>
+                            <span>Copy Email</span>
+                        </button>
+                    </div>
+
+                    <!-- Quick Highlights Counter -->
+                    <div class="hero-metrics">
+                        <div class="metric-item">
+                            <span class="metric-value">9.23</span>
+                            <span class="metric-label">Diploma CPI</span>
+                        </div>
+                        <div class="metric-divider"></div>
+                        <div class="metric-item">
+                            <span class="metric-value">4+</span>
+                            <span class="metric-label">Key Projects</span>
+                        </div>
+                        <div class="metric-divider"></div>
+                        <div class="metric-item">
+                            <span class="metric-value">3</span>
+                            <span class="metric-label">Certifications</span>
+                        </div>
+                        <div class="metric-divider"></div>
+                        <div class="metric-item">
+                            <span class="metric-value">100%</span>
+                            <span class="metric-label">Dedication</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <a href="#about" class="scroll-down-btn" aria-label="Scroll to About Section">
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about-section section-padding">
+            <div class="section-header">
+                <span class="section-tag">Profile Overview</span>
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                <p class="section-subtitle">Driven by curiosity, analytical thinking, and a passion for engineering
+                    intelligent software systems.</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-narrative-card">
+                    <div class="card-icon-header">
+                        <i class="fa-solid fa-terminal"></i>
+                        <span>Background & Motivation</span>
+                    </div>
+                    <p class="narrative-text">
+                        I am a <strong>Computer Science Engineering Diploma student</strong> with a distinguished
+                        academic record (CPI: <strong>9.23/10</strong>). My passion lies at the intersection of
+                        <strong>Python Programming</strong>, <strong>Machine Learning</strong>, <strong>Data
+                            Analysis</strong>, and modern software development.
+                    </p>
+                    <p class="narrative-text">
+                        From designing an <strong>AI Resume Analyzer</strong> equipped with ATS scoring algorithms to
+                        engineering a <strong>Real-time Sleep Detector</strong> using OpenCV facial landmarks, I focus
+                        on transforming theoretical concepts into practical, reliable, and user-centric software.
+                    </p>
+                    <p class="narrative-text">
+                        I thrive in collaborative, fast-paced environments where I can tackle challenging technical
+                        problems, streamline processes through automation, and continuously master emerging
+                        technologies.
+                    </p>
+
+                    <div class="about-contact-pills">
+                        <div class="info-pill">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Vadodara, Gujarat - 390010</span>
+                        </div>
+                        <div class="info-pill">
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:7778035352">+91 7778035352</a>
+                        </div>
+                        <div class="info-pill">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:mohammadkaud5@gmail.com">mohammadkaud5@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-side-cards">
+                    <!-- Languages -->
+                    <div class="mini-card">
+                        <div class="mini-card-icon">
+                            <i class="fa-solid fa-language"></i>
+                        </div>
+                        <div class="mini-card-body">
+                            <h3>Languages Known</h3>
+                            <ul class="language-list">
+                                <li>
+                                    <span class="lang-name">Hindi</span>
+                                    <span class="lang-level">Professional Proficiency</span>
+                                </li>
+                                <li>
+                                    <span class="lang-name">English</span>
+                                    <span class="lang-level">Basic Working Proficiency</span>
+                                </li>
+                                <li>
+                                    <span class="lang-name">Gujarati</span>
+                                    <span class="lang-level">Basic Working Proficiency</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Core Interests -->
+                    <div class="mini-card">
+                        <div class="mini-card-icon">
+                            <i class="fa-solid fa-compass"></i>
+                        </div>
+                        <div class="mini-card-body">
+                            <h3>Focus & Interests</h3>
+                            <div class="tag-cloud">
+                                <span class="tag-chip">Artificial Intelligence</span>
+                                <span class="tag-chip">Prompt Engineering</span>
+                                <span class="tag-chip">Generative AI</span>
+                                <span class="tag-chip">Automation</span>
+                                <span class="tag-chip">Python Development</span>
+                                <span class="tag-chip">Data Analysis</span>
+                                <span class="tag-chip">Computer Vision</span>
+                                <span class="tag-chip">Continuous Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="section-header">
+                <span class="section-tag">Technical Arsenal</span>
+                <h2 class="section-title">Skills & <span class="gradient-text">Expertise</span></h2>
+                <p class="section-subtitle">A well-rounded toolkit spanning core computer science, software engineering,
+                    and applied artificial intelligence.</p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Group 1: Programming Languages -->
+                <div class="skill-category-card">
+                    <div class="category-header">
+                        <div class="category-icon-box">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <div>
+                            <h3 class="category-title">Programming Languages</h3>
+                            <span class="category-subtitle">Core Logic & Software Development</span>
+                        </div>
+                    </div>
+                    <div class="skills-items-container">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="devicon-python-plain colored"></i>
+                                <span class="skill-name">Python</span>
+                            </div>
+                            <span class="skill-badge-level">Advanced</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="devicon-c-plain colored"></i>
+                                <span class="skill-name">C Language</span>
+                            </div>
+                            <span class="skill-badge-level">Proficient</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="devicon-java-plain colored"></i>
+                                <span class="skill-name">Java</span>
+                            </div>
+                            <span class="skill-badge-level">Intermediate</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="devicon-javascript-plain colored"></i>
+                                <span class="skill-name">JavaScript</span>
+                            </div>
+                            <span class="skill-badge-level">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Group 2: AI, Data Science & ML -->
+                <div class="skill-category-card">
+                    <div class="category-header">
+                        <div class="category-icon-box">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <div>
+                            <h3 class="category-title">Data & Artificial Intelligence</h3>
+                            <span class="category-subtitle">Analytical Models & Vision Systems</span>
+                        </div>
+                    </div>
+                    <div class="skills-items-container">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="devicon-numpy-plain colored"></i>
+                                <span class="skill-name">NumPy & Pandas</span>
+                            </div>
+                            <span class="skill-badge-level">Data Analysis</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="devicon-opencv-plain colored"></i>
+                                <span class="skill-name">OpenCV & MediaPipe</span>
+                            </div>
+                            <span class="skill-badge-level">Computer Vision</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fa-solid fa-wand-magic-sparkles" style="color: #fbbf24;"></i>
+                                <span class="skill-name">Prompt Engineering</span>
+                            </div>
+                            <span class="skill-badge-level">Applied AI</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fa-solid fa-robot" style="color: #da0630;"></i>
+                                <span class="skill-name">Workflow Automation</span>
+                            </div>
+                            <span class="skill-badge-level">Productivity</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Group 3: Core Computer Science -->
+                <div class="skill-category-card">
+                    <div class="category-header">
+                        <div class="category-icon-box">
+                            <i class="fa-solid fa-microchip"></i>
+                        </div>
+                        <div>
+                            <h3 class="category-title">Core Computer Science</h3>
+                            <span class="category-subtitle">Fundamental Engineering Principles</span>
+                        </div>
+                    </div>
+                    <div class="skills-items-container">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fa-solid fa-cubes-stacked" style="color: #e30431;"></i>
+                                <span class="skill-name">Object-Oriented Programming (OOP)</span>
+                            </div>
+                            <span class="skill-badge-level">Core Concept</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fa-solid fa-file-code" style="color: #f59e0b;"></i>
+                                <span class="skill-name">File Handling & I/O</span>
+                            </div>
+                            <span class="skill-badge-level">Core Concept</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fa-solid fa-shield-halved" style="color: #fbbf24;"></i>
+                                <span class="skill-name">Structured Exception Handling</span>
+                            </div>
+                            <span class="skill-badge-level">Robust Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fa-solid fa-diagram-project" style="color: #e90432;"></i>
+                                <span class="skill-name">Algorithmic Problem Solving</span>
+                            </div>
+                            <span class="skill-badge-level">Analytical</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Group 4: Web, Tools & Databases -->
+                <div class="skill-category-card">
+                    <div class="category-header">
+                        <div class="category-icon-box">
+                            <i class="fa-solid fa-toolbox"></i>
+                        </div>
+                        <div>
+                            <h3 class="category-title">Web, Tools & Databases</h3>
+                            <span class="category-subtitle">Modern Workflow & Tooling</span>
+                        </div>
+                    </div>
+                    <div class="skills-items-container">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="devicon-html5-plain colored"></i>
+                                <span class="skill-name">HTML5 & Modern CSS3</span>
+                            </div>
+                            <span class="skill-badge-level">Web UI</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="devicon-git-plain colored"></i>
+                                <span class="skill-name">Git & GitHub</span>
+                            </div>
+                            <span class="skill-badge-level">Version Control</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="devicon-vscode-plain colored"></i>
+                                <span class="skill-name">VS Code Environment</span>
+                            </div>
+                            <span class="skill-badge-level">IDE Tools</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fa-solid fa-database" style="color: #fbbf24;"></i>
+                                <span class="skill-name">DBMS (SQL) & Power BI</span>
+                            </div>
+                            <span class="skill-badge-level">Data & BI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="section-header">
+                <span class="section-tag">Featured Work</span>
+                <h2 class="section-title">Projects & <span class="gradient-text">Creations</span></h2>
+                <p class="section-subtitle">Real-world applications engineered with modular architecture, computer
+                    vision, and machine learning.</p>
+            </div>
+
+            <!-- Project Filter Controls -->
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all">All Projects (4)</button>
+                <button class="filter-btn" data-filter="ai">AI & Vision</button>
+                <button class="filter-btn" data-filter="python">Python & Tools</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1: AI Resume Analyzer -->
+                <article class="project-card" data-category="ai">
+                    <div class="project-header">
+                        <div class="project-badge ai-badge">
+                            <i class="fa-solid fa-sparkles"></i> AI & ATS System
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mohammadgaus" target="_blank" rel="noopener noreferrer"
+                                class="icon-link" title="GitHub Repository">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <h3 class="project-title">AI Resume Analyzer & ATS Scorer</h3>
+                    <h4 class="project-sub">Desktop AI tool with interactive CustomTkinter interface</h4>
+
+                    <p class="project-desc">
+                        Built a desktop-based AI Resume Analyzer using Python, CustomTkinter, and PDF/DOCX parsing to
+                        analyze resumes, detect technical skills, and display extracted content through an intuitive
+                        GUI.
+                    </p>
+
+                    <div class="project-highlights">
+                        <div class="highlight-point">
+                            <i class="fa-solid fa-check"></i>
+                            <span>ATS scoring engine with automated feedback & improvement suggestions</span>
+                        </div>
+                        <div class="highlight-point">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Keyword optimization analysis to detect missing sections and maximize interview
+                                callbacks</span>
+                        </div>
+                        <div class="highlight-point">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Multi-format support for seamless PDF & DOCX text extraction</span>
+                        </div>
+                    </div>
+
+                    <div class="project-tech-stack">
+                        <span class="tech-pill"><i class="devicon-python-plain"></i> Python</span>
+                        <span class="tech-pill">CustomTkinter</span>
+                        <span class="tech-pill">PDF / DOCX Parsing</span>
+                        <span class="tech-pill">ATS Scoring Algorithm</span>
+                    </div>
+                </article>
+
+                <!-- Project 2: Sleep Detector -->
+                <article class="project-card" data-category="ai">
+                    <div class="project-header">
+                        <div class="project-badge vision-badge">
+                            <i class="fa-solid fa-eye"></i> Computer Vision
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mohammadgaus" target="_blank" rel="noopener noreferrer"
+                                class="icon-link" title="GitHub Repository">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <h3 class="project-title">Real-Time Sleep & Drowsiness Detector</h3>
+                    <h4 class="project-sub">Computer Vision safety system with audio alerts</h4>
+
+                    <p class="project-desc">
+                        Built a real-time sleep detection application using Python, OpenCV, and MediaPipe to analyze
+                        facial landmarks and identify signs of drowsiness from live webcam video.
+                    </p>
+
+                    <div class="project-highlights">
+                        <div class="highlight-point">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Calculates Eye Aspect Ratio (EAR) across 468 facial mesh landmarks in real-time</span>
+                        </div>
+                        <div class="highlight-point">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Integrated Pygame audio alerts when eye closure exceeds safety thresholds</span>
+                        </div>
+                        <div class="highlight-point">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Live video overlay with dynamic status HUD and eye ratio telemetry</span>
+                        </div>
+                    </div>
+
+                    <div class="project-tech-stack">
+                        <span class="tech-pill"><i class="devicon-python-plain"></i> Python</span>
+                        <span class="tech-pill"><i class="devicon-opencv-plain"></i> OpenCV</span>
+                        <span class="tech-pill">MediaPipe</span>
+                        <span class="tech-pill">Pygame Audio</span>
+                        <span class="tech-pill">EAR Formula</span>
+                    </div>
+                </article>
+
+                <!-- Project 3: Expense Tracker -->
+                <article class="project-card" data-category="python">
+                    <div class="project-header">
+                        <div class="project-badge python-badge">
+                            <i class="fa-solid fa-wallet"></i> CLI & Data
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mohammadgaus" target="_blank" rel="noopener noreferrer"
+                                class="icon-link" title="GitHub Repository">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <h3 class="project-title">Command-Line Expense Tracker</h3>
+                    <h4 class="project-sub">Persistent personal finance and budgeting utility</h4>
+
+                    <p class="project-desc">
+                        Developed a command-line Expense Tracker in Python to record, categorize, and manage daily
+                        financial transactions with robust local file storage and instant summaries.
+                    </p>
+
+                    <div class="project-highlights">
+                        <div class="highlight-point">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Persistent file-handling for reliable transaction logging and historical query</span>
+                        </div>
+                        <div class="highlight-point">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Structured analytical expense reports to monitor budgets and spending trends</span>
+                        </div>
+                        <div class="highlight-point">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Robust input sanitation and category classification for frictionless entry</span>
+                        </div>
+                    </div>
+
+                    <div class="project-tech-stack">
+                        <span class="tech-pill"><i class="devicon-python-plain"></i> Python</span>
+                        <span class="tech-pill">File I/O</span>
+                        <span class="tech-pill">Data Serialization</span>
+                        <span class="tech-pill">CLI Design</span>
+                    </div>
+                </article>
+
+                <!-- Project 4: Stone Paper Scissors Game -->
+                <article class="project-card" data-category="python">
+                    <div class="project-header">
+                        <div class="project-badge oop-badge">
+                            <i class="fa-solid fa-gamepad"></i> OOP & Logic
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mohammadgaus" target="_blank" rel="noopener noreferrer"
+                                class="icon-link" title="GitHub Repository">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <h3 class="project-title">Object-Oriented Stone Paper Scissors</h3>
+                    <h4 class="project-sub">Interactive game engine built with modular OOP architecture</h4>
+
+                    <p class="project-desc">
+                        Engineered a fully object-oriented Rock-Paper-Scissors game in Python with modular classes for
+                        game logic, player choices, and computer moves.
+                    </p>
+
+                    <div class="project-highlights">
+                        <div class="highlight-point">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Randomized decision-making combined with real-time score tracking</span>
+                        </div>
+                        <div class="highlight-point">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Structured exception handling guaranteeing crash-free execution on edge cases</span>
+                        </div>
+                        <div class="highlight-point">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Modular class hierarchy separating logic, presentation, and telemetry</span>
+                        </div>
+                    </div>
+
+                    <div class="project-tech-stack">
+                        <span class="tech-pill"><i class="devicon-python-plain"></i> Python</span>
+                        <span class="tech-pill">OOP Architecture</span>
+                        <span class="tech-pill">Exception Handling</span>
+                        <span class="tech-pill">Game Logic</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ACADEMICS & EDUCATION SECTION -->
+        <section id="academics" class="academics-section section-padding">
+            <div class="section-header">
+                <span class="section-tag">Academic Background</span>
+                <h2 class="section-title">Education & <span class="gradient-text">Performance</span></h2>
+                <p class="section-subtitle">Consistent academic excellence demonstrating solid computer science
+                    fundamentals.</p>
+            </div>
+
+            <div class="academics-container">
+                <!-- Diploma in CSE Card -->
+                <div class="education-card highlight-edu">
+                    <div class="edu-top">
+                        <div class="edu-icon">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <div class="edu-title-group">
+                            <span class="edu-tag">Current Degree</span>
+                            <h3 class="edu-degree">Diploma in Computer Science Engineering</h3>
+                            <h4 class="edu-institution">State Board of Technical Education • Gujarat</h4>
+                        </div>
+                        <div class="cpi-badge">
+                            <span class="cpi-num">9.23</span>
+                            <span class="cpi-max">/ 10 CPI</span>
+                        </div>
+                    </div>
+
+                    <p class="edu-desc">
+                        Focusing on core software engineering, algorithms, database management, computer networks, and
+                        advanced programming languages.
+                    </p>
+
+                    <div class="sem-spi-grid">
+                        <div class="spi-box">
+                            <span class="spi-sem">Semester 1</span>
+                            <span class="spi-val">9.20</span>
+                            <div class="spi-bar">
+                                <div class="spi-fill" style="width: 92%;"></div>
+                            </div>
+                        </div>
+                        <div class="spi-box">
+                            <span class="spi-sem">Semester 2</span>
+                            <span class="spi-val">9.26</span>
+                            <div class="spi-bar">
+                                <div class="spi-fill" style="width: 92.6%;"></div>
+                            </div>
+                        </div>
+                        <div class="spi-box">
+                            <span class="spi-sem">Semester 3</span>
+                            <span class="spi-val">9.36</span>
+                            <div class="spi-bar">
+                                <div class="spi-fill" style="width: 93.6%;"></div>
+                            </div>
+                        </div>
+                        <div class="spi-box">
+                            <span class="spi-sem">Semester 4</span>
+                            <span class="spi-val">9.08</span>
+                            <div class="spi-bar">
+                                <div class="spi-fill" style="width: 90.8%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Secondary School Certificate (SSC) -->
+                <div class="education-card">
+                    <div class="edu-top">
+                        <div class="edu-icon secondary-icon">
+                            <i class="fa-solid fa-school"></i>
+                        </div>
+                        <div class="edu-title-group">
+                            <span class="edu-tag">Secondary Education</span>
+                            <h3 class="edu-degree">Secondary School Certificate (SSC)</h3>
+                            <h4 class="edu-institution">Baroda High School • GSEB (2023)</h4>
+                        </div>
+                        <div class="cpi-badge secondary-badge">
+                            <span class="cpi-num">66%ile</span>
+                            <span class="cpi-max">60% Score</span>
+                        </div>
+                    </div>
+
+                    <p class="edu-desc">
+                        Completed foundational schooling under the Gujarat Secondary and Higher Secondary Education
+                        Board (GSEB) with a strong orientation towards science and mathematics.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS SECTION -->
+        <section id="certifications" class="certifications-section section-padding">
+            <div class="section-header">
+                <span class="section-tag">Credentials</span>
+                <h2 class="section-title">Certifications & <span class="gradient-text">Learning</span></h2>
+                <p class="section-subtitle">Continually updating capabilities with verified technical milestones.</p>
+            </div>
+
+            <div class="certs-grid">
+                <!-- Certificate 1 -->
+                <div class="cert-card">
+                    <div class="cert-icon-wrapper ml-accent">
+                        <i class="fa-solid fa-microchip"></i>
+                    </div>
+                    <div class="cert-body">
+                        <span class="cert-date">July 2026</span>
+                        <h3 class="cert-name">Machine Learning using Python</h3>
+                        <p class="cert-desc">Supervised & unsupervised learning models, regression analysis, feature
+                            engineering, and model evaluation techniques.</p>
+                        <div class="cert-meta">
+                            <span class="verified-pill"><i class="fa-solid fa-circle-check"></i> Advanced Track</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate 2 -->
+                <div class="cert-card">
+                    <div class="cert-icon-wrapper ai-accent">
+                        <i class="fa-solid fa-lightbulb"></i>
+                    </div>
+                    <div class="cert-body">
+                        <span class="cert-date">February 2026</span>
+                        <h3 class="cert-name">Critical Thinking in AI</h3>
+                        <p class="cert-desc">Analytical problem framing, AI ethics, hallucination mitigation, prompt
+                            architectures, and structured evaluation.</p>
+                        <div class="cert-meta">
+                            <span class="verified-pill"><i class="fa-solid fa-circle-check"></i> Core Cognitive
+                                Skill</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate 3 -->
+                <div class="cert-card">
+                    <div class="cert-icon-wrapper py-accent">
+                        <i class="devicon-python-plain"></i>
+                    </div>
+                    <div class="cert-body">
+                        <span class="cert-date">November 2025</span>
+                        <h3 class="cert-name">Python for Beginners</h3>
+                        <p class="cert-desc">Data structures, control flow, functions, modular architecture, and file
+                            I/O operations.</p>
+                        <div class="cert-meta">
+                            <span class="verified-pill"><i class="fa-solid fa-circle-check"></i> Foundation
+                                Verified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Let's Connect & <span class="gradient-text">Collaborate</span></h2>
+                <p class="section-subtitle">Interested in an internship opportunity, project collaboration, or technical
+                    discussion? Send a message!</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Direct Channels Card -->
+                <div class="contact-channels">
+                    <div class="contact-method-card">
+                        <div class="method-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="method-details">
+                            <span class="method-label">Direct Email</span>
+                            <span class="method-value">mohammadkaud5@gmail.com</span>
+                        </div>
+                        <div class="method-actions">
+                            <a href="mailto:mohammadkaud5@gmail.com" class="action-btn" title="Open Mail Client">
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </a>
+                            <button class="action-btn copy-trigger" data-copy="mohammadkaud5@gmail.com"
+                                title="Copy to Clipboard">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="contact-method-card">
+                        <div class="method-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="method-details">
+                            <span class="method-label">Direct Call / WhatsApp</span>
+                            <span class="method-value">+91 7778065652</span>
+                        </div>
+                        <div class="method-actions">
+                            <a href="tel:7778065652" class="action-btn" title="Call">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                            <button class="action-btn copy-trigger" data-copy="+91 7778065652"
+                                title="Copy to Clipboard">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="contact-method-card">
+                        <div class="method-icon"><i class="fa-brands fa-github"></i></div>
+                        <div class="method-details">
+                            <span class="method-label">GitHub Profile</span>
+                            <span class="method-value">github.com/mohammadgaus</span>
+                        </div>
+                        <div class="method-actions">
+                            <a href="https://github.com/mohammadgaus" target="_blank" rel="noopener noreferrer"
+                                class="action-btn" title="Open GitHub">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-method-card">
+                        <div class="method-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="method-details">
+                            <span class="method-label">Location</span>
+                            <span class="method-value">Vadodara, Gujarat - 390010</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Contact Form -->
+                <div class="contact-form-wrapper">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <div class="input-container">
+                                <i class="fa-solid fa-user input-icon"></i>
+                                <input type="text" id="name" name="name" placeholder="e.g. Alex Smith" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <div class="input-container">
+                                <i class="fa-solid fa-envelope input-icon"></i>
+                                <input type="email" id="email" name="email" placeholder="e.g. alex@example.com"
+                                    required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <div class="input-container">
+                                <i class="fa-solid fa-briefcase input-icon"></i>
+                                <input type="text" id="subject" name="subject"
+                                    placeholder="Internship Inquiry / Project Discussion" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <div class="input-container textarea-container">
+                                <i class="fa-solid fa-message input-icon"></i>
+                                <textarea id="message" name="message" rows="4"
+                                    placeholder="Hello Mohammad, I would like to discuss..." required></textarea>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                            <span>Send Message</span>
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <a href="#home" class="logo">PORTFOLIO</a>
+                <p class="footer-tagline">
+                    Mohammad Kaud Marraikayar • Computer Science Engineering Diploma Student • Vadodara, Gujarat.
+                </p>
+            </div>
+
+            <div class="footer-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#academics">Academics</a>
+                <a href="#certifications">Certificates</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mohammad Kaud Marraikayar. All Rights Reserved.</p>
+                <a href="#home" class="back-to-top" aria-label="Back to top">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification Container -->
+    <div id="toast" class="toast" role="alert" aria-live="polite">
+        <i class="fa-solid fa-circle-check toast-icon"></i>
+        <span id="toast-message">Copied to clipboard!</span>
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+
+</html>
